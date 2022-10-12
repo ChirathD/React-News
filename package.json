@@ -2,7 +2,7 @@
   "homepage": "http://chirathD/github.io/React-News",
   "name": "booking",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -40,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "sass": "^1.55.0"
+    "gh-pages": "^4.0.0"
   }
 }
