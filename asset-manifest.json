@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/React-News/static/css/main.6dc6985b.css",
-    "main.js": "/github.io/React-News/static/js/main.ad100a9c.js",
-    "static/media/login.png": "/github.io/React-News/static/media/login.a9bccfa6ffaaee555ab6.png",
-    "static/media/logo-5.png": "/github.io/React-News/static/media/logo-5.ab6eca31a2b3a3668083.png",
-    "index.html": "/github.io/React-News/index.html",
-    "main.6dc6985b.css.map": "/github.io/React-News/static/css/main.6dc6985b.css.map",
-    "main.ad100a9c.js.map": "/github.io/React-News/static/js/main.ad100a9c.js.map"
+    "main.css": "/github.io/static/css/main.6dc6985b.css",
+    "main.js": "/github.io/static/js/main.1750e5c8.js",
+    "static/media/login.png": "/github.io/static/media/login.a9bccfa6ffaaee555ab6.png",
+    "static/media/logo-5.png": "/github.io/static/media/logo-5.ab6eca31a2b3a3668083.png",
+    "index.html": "/github.io/index.html",
+    "main.6dc6985b.css.map": "/github.io/static/css/main.6dc6985b.css.map",
+    "main.1750e5c8.js.map": "/github.io/static/js/main.1750e5c8.js.map"
   },
   "entrypoints": [
     "static/css/main.6dc6985b.css",
-    "static/js/main.ad100a9c.js"
+    "static/js/main.1750e5c8.js"
   ]
 }
