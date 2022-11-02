@@ -1,0 +1,92 @@
+# POST http://localhost:4000/submit
+# Content-Type: application/json
+
+# {
+#     "user_name": "10",
+#     "heading": "10",
+#     "post_image": "10"
+# }
+
+# POST http://localhost:4000/submit_section_1_article
+# Content-Type: application/json
+
+# {
+#    "rank":4,
+#    "cover_img_link":"https://raw.githubusercontent.com/ChirathD/React-News/main/images/hero6.jpg",
+#    "category":"fashion",
+#    "title":"Emma Watson stands up for Turkish women",
+#    "author_name":"Sansa",
+#    "author_img_link":"https://raw.githubusercontent.com/ChirathD/React-News/main/images/hero6.jpg",
+#    "description":[
+#       {
+#          "para1":"You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve."
+#       },
+#       {
+#          "para2":"We work with clients big and small across a range of sectors and we utilize all forms of media to get your name out there in a way that’s right for you. We believe that analysis of your company and your customers is key in responding effectively to your promotional needs and we will work with you."
+#       },
+#       {
+#          "para3":"We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry."
+#       }
+#    ],
+#    "details":[
+#       {
+#          "title":"Starting a new company is easy"
+#       },
+#       {
+#          "para1":"Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry and that’s what you want from an advertising agency, not someone who is relying on the same way of doing things that worked 10 years, 5 years or even a year ago."
+#       },
+#       {
+#          "quote":"Scarfs, still not this no with explains it me and option on the any options roasted when I and state can that an don't subjective of has his take on and in from royal everything took raising our have behind success you the mechanic."
+#       },
+#       {
+#          "para2":"And, higher by agency; In from their in and we spirit, through merely and doctor's small him sounded a all now, with that put gift white highly geared that was left back as of or logged important. A over have the large try understanding the believe. Perfected been viewer. Shreds early willingly safely what passion the."
+#       },
+#       {
+#          "para3":"In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy before the design starts. Needless to say it’s very important, content is king and people are beginning to understand that. However, back over in reality some project schedules and budgets don’t allow for web copy to be written before the design phase, this is sad but true."
+#       }
+#    ]
+# }
+
+POST http://localhost:4000/submit_section_2_article
+Content-Type: application/json
+
+{
+   "rank":11,
+   "cover_img_link":"https://raw.githubusercontent.com/ChirathD/React-News/main/images/popular/pop9.jpg",
+   "category":"Fun",
+   "title":"Social Networks And Social Life",
+   "author_name":"Louren",
+   "author_img_link":"https://raw.githubusercontent.com/ChirathD/React-News/main/images/popular/pop9.jpg",
+   "description_preview":"Lorem ipsum dolor sit amet, consectetuer adipis",
+   "description":[
+      {
+         "para1":"You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve."
+      },
+      {
+         "para2":"We work with clients big and small across a range of sectors and we utilize all forms of media to get your name out there in a way that’s right for you. We believe that analysis of your company and your customers is key in responding effectively to your promotional needs and we will work with you."
+      },
+      {
+         "para3":"We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry."
+      }
+   ],
+   "details":[
+      {
+         "title":"Starting a new company is easy"
+      },
+      {
+         "para1":"Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry and that’s what you want from an advertising agency, not someone who is relying on the same way of doing things that worked 10 years, 5 years or even a year ago."
+      },
+      {
+         "quote":"Scarfs, still not this no with explains it me and option on the any options roasted when I and state can that an don't subjective of has his take on and in from royal everything took raising our have behind success you the mechanic."
+      },
+      {
+         "para2":"And, higher by agency; In from their in and we spirit, through merely and doctor's small him sounded a all now, with that put gift white highly geared that was left back as of or logged important. A over have the large try understanding the believe. Perfected been viewer. Shreds early willingly safely what passion the."
+      },
+      {
+         "para3":"In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy before the design starts. Needless to say it’s very important, content is king and people are beginning to understand that. However, back over in reality some project schedules and budgets don’t allow for web copy to be written before the design phase, this is sad but true."
+      }
+   ]
+}
+
+# GET  http://localhost:4000/submit_section_2_article/post_id=a087fc7c-06d1-4958-aea8-19bc456a5be5
+# Content-Type: application/json
